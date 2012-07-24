@@ -16,7 +16,7 @@ import de.fhtrier.gdw2.sotf.Interfaces.IPlayer;
 public class CollisionHandler {
 	
 	/**
-	 * Enthält die Collision-Map.
+	 * Enthaelt die Collision-Map.
 	 */
 	private boolean[][] blocked;
 	
@@ -44,7 +44,7 @@ public class CollisionHandler {
 	/**
 	 * Abfragen ob ein Entity mit irgendeinem
 	 * der Entities kollidiert. Wenn eine Kollision
-	 * aufgetreten ist, wird das kollidierte Entity zurückgegeben.
+	 * aufgetreten ist, wird das kollidierte Entity zurueckgegeben.
 	 * 
 	 * @param entity
 	 * @param entities
@@ -61,7 +61,7 @@ public class CollisionHandler {
 	}
 	
 	/**
-	 * Gibt zurück ob ein Tile begehbar ist.
+	 * Gibt zurueck ob ein Tile begehbar ist.
 	 * 
 	 * @param player
 	 * @param map
